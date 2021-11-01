@@ -20,7 +20,7 @@ public class Elevator{
         }else if (current_Floor > dest_Floor){
             go_down();
         }else if (current_Floor == dest_Floor){
-            arrive_atFloor();
+            System.out.print("*** You are already at your destination floor :-)");
         }
 
 
